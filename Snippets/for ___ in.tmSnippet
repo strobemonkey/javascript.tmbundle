@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>for (var ${1:myProperty} in ${2:myObject}) {
+  if (${2}.hasOwnProperty(${1})) {
+    $0
+  }
+}</string>
+	<key>name</key>
+	<string>for ... in</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>forin</string>
+	<key>uuid</key>
+	<string>CC3AC4A8-0AC9-40C7-9844-6EAF94F757F4</string>
+</dict>
+</plist>
